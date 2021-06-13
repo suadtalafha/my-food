@@ -1,0 +1,237 @@
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content{
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+   margin-left:0px;
+}
+.overlay a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-size: 24px;
+    margin-left: -379px;
+    font-family: 'Karma', serif;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    background-color: rgb(177, 172, 172);
+  }
+nav{
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    height: 68px;
+    margin-left: 80px;
+    background-color: white;
+}
+nav div:nth-child(3){
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Noto Serif', serif;
+    margin-top: 12px;
+}
+nav div:nth-child(4){
+    float: right;
+    font-size: 24px;
+    font-family: 'Noto Serif', serif;
+    margin-top: -31px;
+}
+#container{
+    width: 1151px;
+    height: 1348px;
+    margin-left: auto;
+    margin-top: 134px;
+    margin-right: auto;
+    border-bottom: 1px solid lightgray; 
+}
+#container img{
+    width: 272px;
+    height: 411px;
+
+}
+#container div{
+    width: 272px;
+    height: 600px;
+    float: left;
+    margin-right: 15px;
+
+}
+#container h3{
+    width: 272px;
+    height: 72px;
+    font-family: 'Karma', serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+#container p{
+    color: rgb(58, 57, 57); 
+    text-justify: auto;
+}
+.ulDiv{
+    margin-left: 379px;
+    margin-top: 20px;
+}
+.ulDiv li{
+    height: 38.9px;
+    width: 38px;
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.ulDiv a{
+    height: 38.9px;
+    width: 38px;
+    display: inline-block;
+    text-decoration: none;
+    padding:8px 16px ;
+    color: black;
+}
+.ulDiv li:nth-child(6){
+    margin-left: 9px;
+}
+.ulDiv li:hover{
+    background-color: black;
+}
+.ulDiv a:hover{
+    color: white;
+}
+#container2{
+    width: 1186px;
+    margin-left: 98px;
+    height: 972px;
+    border-bottom: 1px solid lightgray; 
+}
+#container2 h3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Karma', serif;
+    position: absolute;
+    margin-top: -412px;
+    margin-left: 421px;
+    font-weight: 500;
+}
+#container2 img{
+    margin-top: -333px;
+    margin-bottom: 45px;
+    margin-left: 180px;
+}
+#container2 b{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Karma', serif;
+    margin-left: 300px;
+    margin-right: 287px;
+    
+}
+#container2 i{
+    color: gray;
+    position: absolute;
+    margin-left: -479px;
+    margin-top: 50px;
+}
+#container2 p{
+    margin-top: 71px;
+    margin-right: 214px;
+    margin-left: -164px;
+    font-size: 15px;
+    color: #252424;
+    line-height: 23px;
+    font-family: 'Karma', serif;
+    text-align:center;
+}
+.div2{
+    width: 1186px;
+    margin-left: 180px;
+}
+body{
+    overflow-x: hidden;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+footer div{
+    float: left;
+    width: 368px;
+    height: 200px;
+    margin-left: 91px;
+    margin-top: 38px;
+    
+}
+footer h3{
+    font-weight: 400;
+    font-family: 'Karma', serif;
+    font-size: 25px;
+}
+.footerDiv1 p{
+    line-height: 27px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Karma', serif;
+
+}
+footer ul{
+    list-style-type: none;
+}
+footer li:first-child{
+    width: 367px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.span{
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 0px;
+    font-family: 'Karma', serif;
+
+}
+.span1{
+    position: absolute;
+    margin-left: 84px;
+    margin-top: -46px;
+    color: gray;
+    font-family: 'Karma', serif;
+
+}
+.footerDiv2{
+    margin-left: 12px;
+}
+.footerDiv3 span{
+    padding: 6px;
+    background-color: rgb(114, 108, 108);
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footerDiv3 span:first-child{
+    padding: 6px;
+    background-color: rgb(22, 22, 22);
+    color: white ;
+    font-size: 12px;
+}
+.footerDiv3 p{
+    margin:15px 0px;
+
+}
+.span2:hover{
+    background-color: rgb(182, 179, 179);
+}
